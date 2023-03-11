@@ -168,12 +168,12 @@ var swiper = new Swiper(".books-slider", {
 
 
   window.onscroll = function(){
-    if(window.scrollY > 80){
-        document.querySelector('header .header2').classList.add('active');
-      }else{
-        document.querySelector('header .header2').classList.remove('active');
-      }
-      login_page.classList.remove("active");
+//     if(window.scrollY > 80){
+//         document.querySelector('header .header2').classList.add('active');
+//       }else{
+//         document.querySelector('header .header2').classList.remove('active');
+//       }
+//       login_page.classList.remove("active");
        
   fadeOut(); 
 }
